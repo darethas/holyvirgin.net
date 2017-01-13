@@ -1,0 +1,31 @@
+{
+  "name": "holyvirgin.net",
+  "version": "1.0.0",
+  "description": "jekyll site that is used to generate holyvirgin.net",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-rev": "^7.1.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/treehau5/holyvirgin.net.git"
+  },
+  "keywords": [
+    "orthodoxy"
+  ],
+  "author": "dimitrios arethas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/treehau5/holyvirgin.net/issues"
+  },
+  "homepage": "https://github.com/treehau5/holyvirgin.net#readme"
+}
