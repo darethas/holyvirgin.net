@@ -1,0 +1,22 @@
+---
+layout: default
+---
+ <div class="row hv-container">
+    <div class="large-9 column"> 
+      <h1>{{ page.title }}</h1>
+      <p><em>Posted by {{page.author}} on {{page.date | date: '%B %d, %Y'}}</em></p>
+      <p>{{ page.content}}</p>
+      <p><a href="/news">Back to News</a></p>
+    </div>
+    <div class="large-3 column">
+    <p>Recent Posts</p>
+    <ul>
+        {% for post in site.posts limit: 5 %}
+            {% if post.categories contains "news" %}
+            <li><a href={{post.url}}>{{post.title}}</a></li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+    </div>
+  </div>
+</div>

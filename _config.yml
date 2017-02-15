@@ -38,3 +38,4 @@ collections:
   articles:
     output: true
     permalink: /about-orthodoxy/:name/index.html
+    
