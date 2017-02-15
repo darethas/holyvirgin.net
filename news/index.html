@@ -3,7 +3,7 @@ layout: default
 title: Nativity News
 ---
 <div class="row hv-container">
-  <div class="large-9 column">
+  <div class="small-12 large-9 column">
     <h1>Nativity News</h1>
     {% for post in site.posts %}
         {% if post.categories contains "news" %}
@@ -15,7 +15,7 @@ title: Nativity News
         {% endif %}
     {% endfor %}
   </div>
-  <div class="large-3 column">
+  <div class="small-12 large-3 column">
     <p>Recent Posts</p>
     <ul>
         {% for post in site.posts limit: 5 %}
