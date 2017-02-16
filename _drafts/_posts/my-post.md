@@ -1,0 +1,5 @@
+---
+title: My Post
+category: news
+date: '2017-02-16T10:34:34+00:00'
+---
