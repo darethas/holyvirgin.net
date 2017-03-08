@@ -1,9 +1,9 @@
 ---
 title: Fr. Oleksa Talk Sunday 3/12
-category: news
 layout: news_single
 date: '2017-03-08T13:04:21+00:00'
 author: Dimitrios
+categories: news
 ---
 Fr. Oleksa is coming to give a talk on the Three Alaskan Saints.
 
